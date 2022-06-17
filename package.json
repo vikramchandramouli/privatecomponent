@@ -1,16 +1,16 @@
 {
-  "name": "privatecomponent",
+  "name": "@vikramchandramouli/privatecomponent",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@stephanie-code"
+    "registry": "https://npm.pkg.github.com/@vikramchandramouli"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c"
   },
-  "author": "",
+  "author": "vikramchandarmouli",
   "license": "ISC",
   "dependencies": {
     "antd": "^4.21.3"

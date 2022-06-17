@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Modal } from "antd";
-
+import 'antd/dist/antd.css';
 const ModalPopup = ({
   title,
   visible,
@@ -13,7 +13,7 @@ const ModalPopup = ({
 }) => {
   return (
     <Modal
-      title={"Hello"}
+      title={title}
       visible={visible}
       onCancel={toggle}
       footer={footer}

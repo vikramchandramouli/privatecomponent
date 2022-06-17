@@ -17,7 +17,6 @@ export default {
       exclude: "node_modules/**",
       presets: ["@babel/preset-env", "@babel/preset-react"],
     }),
-
     scss(),
     resolve(),
     commonjs(),
