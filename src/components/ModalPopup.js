@@ -1,7 +1,5 @@
 import React from "react";
-
 import { Modal } from "antd";
-import 'antd/dist/antd.css';
 const ModalPopup = ({
   title,
   visible,

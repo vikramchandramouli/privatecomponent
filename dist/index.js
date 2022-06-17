@@ -1,0 +1,2 @@
+import t from"react";import{Modal as e}from"antd";var o=function(o){var i=o.title,n=o.visible,r=o.toggle,l=o.footer,a=o.height,h=o.width,c=o.content;return t.createElement(e,{title:i,visible:n,onCancel:r,footer:l,height:a,width:h,content:c},c)};o.defaultProps={title:"Title",visible:!1,footer:"Footer",height:"auto",width:"50vw",content:t.createElement("p",null,"Content")};export{o as ModalPopup};
+//# sourceMappingURL=index.js.map

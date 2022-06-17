@@ -7,10 +7,12 @@ import pkg from "./package.json";
 import scss from "rollup-plugin-scss";
 export default {
   input: "src/index.js",
-  output: [
-    { file: pkg.main, format: "cjs" },
-    { file: pkg.module, format: "esm" },
-  ],
+  output:{
+    dir: 'dist',
+    sourcemap: true,
+    file: pkg.module,
+    format: 'es'
+},
   plugins: [
     babel({
       babelHelpers: "bundled",
